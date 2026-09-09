@@ -7,6 +7,18 @@
   --hairline: rgba(237, 234, 231, 0.14);
   --serif: "Fraunces", Georgia, serif;
   --sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  /* Цвет заголовка в hero — попробуй по очереди. Строка ниже без /* и */ вокруг неё —
+     активная (та, что сработает). Чтобы сменить цвет: сотри одну строку с активным
+     цветом и вместо неё скопируй нужную строку снизу, убрав /* в начале и */ в конце.
+     Тёмные цвета обычно лучше видны на светлом видео, чем белый текст. */
+  --hero-title-color: var(--text);
+  /* варианты на выбор:
+  --hero-title-color: #1B2452;      тёмно-синий
+  --hero-title-color: #16351F;      тёмно-зелёный
+  --hero-title-color: #8FE3A0;      светло-зелёный
+  --hero-title-color: #6B4FA0;      фиолетовый
+  */
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -99,6 +111,8 @@ a { color: inherit; text-decoration: none; }
   font-size: clamp(2.2rem, 6vw, 4.2rem);
   line-height: 1.08;
   letter-spacing: -0.01em;
+  color: var(--hero-title-color);
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.35);
 }
 
 .hero__subtitle {
