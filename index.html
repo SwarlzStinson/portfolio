@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Степин Евгений — AI-режиссёр и видеограф</title>
+<meta name="description" content="AI-режиссёр и видеограф. Короткие фильмы и истории со сквозным персонажем, собранные из генеративных инструментов.">
+
+<!-- Open Graph — чтобы ссылка красиво разворачивалась в Telegram/LinkedIn -->
+<meta property="og:title" content="Степин Евгений — AI-режиссёр и видеограф">
+<meta property="og:description" content="Персонажи, которые помнят себя от кадра к кадру.">
+<meta property="og:image" content="images/og-cover.jpg">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== HERO ===================== -->
+<header class="hero">
+  <video class="hero__video" autoplay muted loop playsinline preload="auto" poster="images/hero-poster.jpg">
+    <source src="videos/reel.mp4" type="video/mp4">
+  </video>
+  <div class="hero__scrim"></div>
+
+  <nav class="hero__nav">
+    <span class="hero__nav-mark">И.Ф.</span>
+    <a href="#contact" class="hero__nav-link">Написать</a>
+  </nav>
+
+  <div class="hero__content">
+    <h1 class="hero__title">Персонажи,<br>которые помнят себя<br>от кадра к кадру.</h1>
+    <p class="hero__subtitle">Степин Евгений — AI-режиссёр и видеограф. Собираю короткие истории из генеративных&nbsp;инструментов — с сюжетом, актёрской игрой и монтажной логикой, будто снято на площадке.</p>
+    <a href="#work" class="hero__cta">Смотреть работы</a>
+  </div>
+</header>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="about">
+  <div class="about__inner">
+    <p class="about__text">
+      Работаю на стыке режиссуры и промпт-инжиниринга: выстраиваю историю, собираю референсы персонажа,
+      генерирую материал сразу в нескольких моделях, свожу и монтирую в единую сцену.
+      За последнее время сделал короткий мультфильм на 50 секунд с диалогом и пять историй-клипов со сквозным
+      персонажем — в одной из них тестировал липсинк.
+    </p>
+    <p class="about__tools">
+      Hunyuan(ComfyUI), Higgs3(ComfyUI), Kling3.0, Flux2(ComfyUI), WAN2.2(ComfyUI), Ideogramm, Suno — и ещё десяток инструментов под конкретную задачу.
+    </p>
+  </div>
+</section>
+
+<!-- ===================== WORK ===================== -->
+<section class="work" id="work">
+
+  <!-- Проект 1 -->
+  <article class="case">
+    <div class="case__media">
+      <video class="case__video" muted loop playsinline preload="metadata" poster="images/work-1-poster.jpg">
+        <source src="videos/work-1.mp4" type="video/mp4">
+      </video>
+      <button class="case__sound" aria-label="Включить звук" data-sound-toggle>🔇</button>
+    </div>
+    <div class="case__text">
+      <span class="case__duration">50 сек · мультфильм</span>
+      <h2 class="case__title">Мультфильм короткометражный</h2>
+      <p class="case__desc">
+        Короткое описание истории: Главный герой маленький ребенок которому только что сделали операцию по установке аппарата Иллизарова. Другой ребенок постарше, который уже несколько недель носит аппарат и может ходить, обьясняет герою, что все не страшно и для чего нужно. Цель мультфильма - снизить ребенку психологический стресс и морально подготовить к операции и последствиям. 
+      </p>
+      <p class="case__meta">Инструменты: Grok, Ideogramm, LosslessCut<br>Роль: режиссура, промпт-инжиниринг, монтаж</p>
+    </div>
+  </article>
+
+  <!-- Проект 2 -->
+  <article class="case case--reverse">
+    <div class="case__media">
+      <video class="case__video" muted loop playsinline preload="metadata" poster="images/work-2-poster.jpg">
+        <source src="videos/work-2.mp4" type="video/mp4">
+      </video>
+      <button class="case__sound" aria-label="Включить звук" data-sound-toggle>🔇</button>
+    </div>
+    <div class="case__text">
+      <span class="case__duration">2:30 · история с липсинком</span>
+      <h2 class="case__title">Клип для подкаста-средневековье</h2>
+      <p class="case__desc">
+        В этом клипе кроме консистентности персонажа я проводил эксперименты с эффектом наложения движения губ по припеву из песни являющейся звуковой дорожкой.
+      </p>
+      <p class="case__meta">Инструменты: KlingAI 3.0, ComfyUI, Ideogramm, Flux2, WAN 2.2, Audacity <br>Роль: режиссура, липсинк, промпт-инжиниринг, монтаж </p>
+    </div>
+  </article>
+
+  <!-- Проект 3 -->
+  <article class="case">
+    <div class="case__media">
+      <video class="case__video" muted loop playsinline preload="metadata" poster="images/work-3-poster.jpg">
+        <source src="videos/work-3.mp4" type="video/mp4">
+      </video>
+      <button class="case__sound" aria-label="Включить звук" data-sound-toggle>🔇</button>
+    </div>
+    <div class="case__text">
+      <span class="case__duration">2–3 мин · история</span>
+      <h2 class="case__title">Клип для подкаста - зомби апокалипсис</h2>
+      <p class="case__desc">История повторяет решения человека принятые им во время подкаста о выживании в гипотетическом апокалипсисе, она сохраняет последовательность принятых решений до логический развязки. В начале идет демонстация навыков человека которые он приобрел по жизни и юмористическое обыгрывание их бесполезности либо применения в зомби-апокалипсис</p>
+      <p class="case__meta">Инструменты: Gemini, GPT_image, NanoBanana, Sora, Veo, Higgsfield <br>Роль: режиссура, промпт-инжиниринг</p>
+    </div>
+  </article>
+
+  <!-- Проект 4 -->
+  <article class="case case--reverse">
+    <div class="case__media">
+      <video class="case__video" muted loop playsinline preload="metadata" poster="images/work-4-poster.jpg">
+        <source src="videos/work-4.mp4" type="video/mp4">
+      </video>
+      <button class="case__sound" aria-label="Включить звук" data-sound-toggle>🔇</button>
+    </div>
+    <div class="case__text">
+      <span class="case__duration">2–3 мин · история</span>
+      <h2 class="case__title">Название проекта</h2>
+      <p class="case__desc">Короткое описание истории и того, что делает её интересной.</p>
+      <p class="case__meta">Инструменты: [список]<br>Роль: [роль]</p>
+    </div>
+  </article>
+
+  <!-- Проект 5 — добавь видео позже -->
+  <article class="case">
+    <div class="case__media">
+      <video class="case__video" muted loop playsinline preload="metadata" poster="images/work-5-poster.jpg">
+        <source src="videos/work-5.mp4" type="video/mp4">
+      </video>
+      <button class="case__sound" aria-label="Включить звук" data-sound-toggle>🔇</button>
+    </div>
+    <div class="case__text">
+      <span class="case__duration">2–3 мин · история</span>
+      <h2 class="case__title">Название проекта</h2>
+      <p class="case__desc">Короткое описание истории и того, что делает её интересной.</p>
+      <p class="case__meta">Инструменты: [список]<br>Роль: [роль]</p>
+    </div>
+  </article>
+
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<footer class="contact" id="contact">
+  <h2 class="contact__title">Есть проект?</h2>
+  <a href="mailto:you@example.com" class="contact__email">you@example.com</a>
+  <div class="contact__links">
+    <a href="https://t.me/yourusername" target="_blank" rel="noopener">Telegram</a>
+    <a href="resume.pdf" target="_blank" rel="noopener">Резюме (PDF)</a>
+  </div>
+  <p class="contact__year">© 2026 Степин Евгений</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
